@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1580799809 source:/home/pi/c/Lab5/main.c
+	<stdio.h>
+
+1580799760 source:/home/pi/c/Lab5/HW1.c
+	<stdio.h>
+	<stdlib.h>
+
+1580800631 source:/home/pi/c/Lab5/HW2.c
+	<stdio.h>
+
+1580799724 source:/home/pi/c/Lab5/Example.c
+	<stdio.h>
+
