@@ -1,0 +1,23 @@
+    .global main
+main:
+    MOV R0, #0
+    MOV R1, #2
+    MOV R2, #4
+    ORR R0, R1, R2
+BX LR
+
+
+---------------------------
+
+    .global main
+main:
+    MOV R5, #1
+loop:
+    CMP R4, #0
+    BLE end
+else:
+    MOV R5, #2
+end:
+    MOV R0, R5
+    BX LR
+
