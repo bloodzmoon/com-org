@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1582116181 source:/home/pi/asm/Lab7/homework/main.c
+	<stdio.h>
+
+1582116181 source:/home/pi/asm/Lab7/homework/hw1/main.c
+	<stdio.h>
+
