@@ -3,7 +3,7 @@
 
 > KMITL 2020
 
-![Cover]('./git-cover.png')
+![Cover]("https://github.com/bloodzmoon/com-org/blob/master/git-cover.png")
 
 ## About this
 A laboratory using *Raspberry PI 3*.
