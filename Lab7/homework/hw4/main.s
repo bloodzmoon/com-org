@@ -1,30 +1,21 @@
 
 .data
-
   .balign 4
   a: .word 0
-
   .balign 4
   b: .word 0
-
   .balign 4
   gcd: .word 0
-
   .balign 4
   msg: .asciz "Enter number : "
-
   .balign 4
   format: .asciz "%d"
-
   .balign 4
   output: .asciz "GCD of %d and %d is %d"
-
   .balign 4
   lr_bu: .word 0
 
-
 .text
-
   modulo: @(R1, R2) return R1
     loop_modulo:
       CMP R1, R2
@@ -33,7 +24,6 @@
     B loop_modulo
 
 .global main
-
 main:
   LDR R1, addr_lr_bu
   STR LR, [R1]
